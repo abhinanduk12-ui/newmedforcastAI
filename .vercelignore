@@ -1,0 +1,18 @@
+# Exclude frontend app and dependencies from Python serverless function bundle
+frontend/
+node_modules/
+.next/
+
+# Exclude raw training data and logs
+data/raw/
+logs/
+
+# Exclude git, container, and local scripts
+.git/
+.github/
+.vscode/
+Dockerfile*
+docker-compose.yml
+*.ps1
+*.sh
+*.md
